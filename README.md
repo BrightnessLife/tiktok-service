@@ -18,5 +18,5 @@ Gen an api token to call our service
 + Run `python3 3_test_as_cp_mas.py`to gen as/cp/mas params
 
 ## Step 4
-+ Run other python fileS to test tiktok functions.
++ Run other python files to test tiktok functions.
 
