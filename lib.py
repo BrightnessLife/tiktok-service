@@ -69,8 +69,8 @@ def api_douyin(action, args, ts, device_info, token=""):
 
 
 def api_service(route, token="", method="get", data=None, content_type="application/json"):
-    resp = requests.request(method=method, url="{0}/{1}".format(API_EP_TIKTOK, route), data=data,
-                            headers={"Content-Type": content_type, "token": token}, verify=False)
+    resp = requests.request(method=method, url="{0}/{1}/{2}".format(API_EP_TIKTOK, route,token), data=data,
+                            headers={"Content-Type": content_type}, verify=False)
 
     # print(resp.content)
     if token != "" and resp.headers.get("x-token") != token:
