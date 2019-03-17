@@ -18,6 +18,9 @@ curl "https://sign.vsdouyin.com/api/token/info/b7f5a12b0dfa11f6c1046a2abe65eb94"
 
 ### Step 2
 + Run `python3 2_gen_device.py` to gen device info
++ For other programming languages, pls refer to Python code to wrap http request to tiktok. 
+
+
 
 ### Step 3
 + Run `python3 3_test_as_cp_mas.py`to gen as/cp/mas params
